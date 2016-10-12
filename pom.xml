@@ -24,7 +24,7 @@
     </parent>
     <artifactId>storm-cassandra</artifactId>
     <groupId>com.hubrick.storm</groupId>
-    <version>1.0.0</version>
+    <version>1.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
     <name>storm-cassandra</name>
     <description>Storm Bolts for Apache Cassandra</description>
