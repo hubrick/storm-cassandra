@@ -24,7 +24,7 @@
     </parent>
     <artifactId>storm-cassandra</artifactId>
     <groupId>com.hubrick.storm</groupId>
-    <version>1.0.1-SNAPSHOT</version>
+    <version>2.0.0-SNAPSHOT</version>
     <packaging>jar</packaging>
     <name>storm-cassandra</name>
     <description>Storm Bolts for Apache Cassandra</description>
@@ -35,13 +35,13 @@
         <arguments />
 
         <!--Dependency versions-->
-        <slf4j.version>1.7.6</slf4j.version>
+        <slf4j.version>1.7.21</slf4j.version>
         <jackson-databind.version>2.8.3</jackson-databind.version>
-        <junit.version>4.11</junit.version>
-        <guava.version>19.0</guava.version>
-        <commons-lang3.version>3.3</commons-lang3.version>
-        <cassandra-driver-core.version>3.1.1</cassandra-driver-core.version>
-        <storm.version>0.9.7</storm.version>
+        <junit.version>4.12</junit.version>
+        <guava.version>20.0</guava.version>
+        <commons-lang3.version>3.5</commons-lang3.version>
+        <cassandra-driver-core.version>3.1.2</cassandra-driver-core.version>
+        <storm.version>1.0.2</storm.version>
 
         <!--Plugin versions-->
         <maven.compiler.plugin.version>3.1</maven.compiler.plugin.version>

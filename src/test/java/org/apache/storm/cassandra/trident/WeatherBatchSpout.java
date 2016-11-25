@@ -15,10 +15,11 @@
  */
 package org.apache.storm.cassandra.trident;
 
-import backtype.storm.task.TopologyContext;
-import backtype.storm.tuple.Fields;
-import storm.trident.operation.TridentCollector;
-import storm.trident.spout.IBatchSpout;
+
+import org.apache.storm.task.TopologyContext;
+import org.apache.storm.trident.operation.TridentCollector;
+import org.apache.storm.trident.spout.IBatchSpout;
+import org.apache.storm.tuple.Fields;
 
 import java.util.ArrayList;
 import java.util.HashMap;

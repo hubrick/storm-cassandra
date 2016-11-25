@@ -15,7 +15,7 @@
  */
 package org.apache.storm.cassandra.client;
 
-import backtype.storm.utils.Utils;
+import org.apache.storm.utils.Utils;
 import com.datastax.driver.core.ConsistencyLevel;
 import com.datastax.driver.core.policies.DefaultRetryPolicy;
 import com.datastax.driver.core.policies.DowngradingConsistencyRetryPolicy;
