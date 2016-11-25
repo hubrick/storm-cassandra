@@ -15,13 +15,13 @@
  */
 package org.apache.storm.cassandra;
 
-import backtype.storm.task.OutputCollector;
-import backtype.storm.tuple.Tuple;
 import com.datastax.driver.core.exceptions.DriverException;
 import com.datastax.driver.core.exceptions.QueryValidationException;
 import com.datastax.driver.core.exceptions.ReadTimeoutException;
 import com.datastax.driver.core.exceptions.UnavailableException;
 import com.datastax.driver.core.exceptions.WriteTimeoutException;
+import org.apache.storm.task.OutputCollector;
+import org.apache.storm.tuple.Tuple;
 import org.slf4j.LoggerFactory;
 
 /**

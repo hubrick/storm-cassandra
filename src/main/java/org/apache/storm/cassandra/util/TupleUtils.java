@@ -15,9 +15,9 @@
  */
 package org.apache.storm.cassandra.util;
 
-import backtype.storm.Config;
-import backtype.storm.Constants;
-import backtype.storm.tuple.Tuple;
+import org.apache.storm.Config;
+import org.apache.storm.Constants;
+import org.apache.storm.tuple.Tuple;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
